@@ -11,16 +11,16 @@ const Footer = () => {
     <div className="footer">
         <img src={Wave} alt="" style={{width:'100%'}}></img>
         <div className='f-content'>
-            <span>rupamohanty02@gmail.com</span>
+            <span>harshkumarsingh600@gmail.com</span>
             <div className="f-icons">
-              <a href='https://instagram.com/rupa_0032?igshid=ZDc4ODBmNjlmNQ=='>
+            <a href='https://www.instagram.com/_rajput_harsh05/'>  
                 <Insta color='white' size='3rem'></Insta>
               </a>
-              <a href='https://www.linkedin.com/in/rupa-mohanty-960897218'>
+              <a href='https://www.linkedin.com/in/harsh-singh-600182212/'>
 
                 <Facebook color='white' size='3rem'></Facebook>
               </a>
-              <a href='https://github.com/RupaMohanty'>
+              <a href='https://github.com/rajputharsh05'>
                 <Github color='white' size='3rem'></Github>
               </a>
             </div>

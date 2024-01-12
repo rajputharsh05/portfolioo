@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="n-wrapper">
         <div className="n-left">
-                <div className="n-name" style={{color:darkMode?'white':''}}>RUPA</div>
+                <div className="n-name" style={{color:darkMode?'white':''}}>HARSH</div>
                 <span><Toggle></Toggle></span>
         </div> 
         <div className="n-right">

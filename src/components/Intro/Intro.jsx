@@ -21,21 +21,21 @@ const Intro = () => {
     <div className="Intro">
         <div className="i-left">
             <div className="i-name">
-                <span style={{color:darkMode?'white':''}} >Hy! I Am</span>
-                <span>Rupa Mohanty</span>
+                <span style={{color:darkMode?'white':''}} >Hy! I'am</span>
+                <span>Harsh Kumar Singh</span>
                 <spam style={{color:darkMode?'white':''}}>
-                A passionate fresher in Machine Learning. With a strong programming background, I'm eager to explore the world of algorithms, data, and intelligent systems. Excited about supervised and unsupervised learning, regression, classification, and clustering, I'm also keen to learn popular ML algorithms, evaluation techniques, and programming languages like Python and TensorFlow. As a Machine Learning fresher, I'm ready to embrace challenges, expand my knowledge, and contribute to the future of AI
+                A passionate fresher with solid understanding of Full stack Development With MERN stack + Typescript. With a strong programming background, I'm eager to explore the world of backend development. Excited about open soure contributions and Web3, I'm also keen to learn advanced and modern technologies, and programming languages . As a Full Stack Developer, I'm ready to embrace challenges, expand my knowledge, and contribute to the future of Web Development
                    </spam>
             </div>
             <button className='i-button'>Hire Me</button>
             <div className="i-icons">
-              <a href='https://github.com/RupaMohanty'>
+              <a href='https://github.com/rajputharsh05'>
               <img src={Github} alt="" ></img>
               </a>
-              <a href='https://www.linkedin.com/in/rupa-mohanty-960897218'>
+              <a href='https://www.linkedin.com/in/harsh-singh-600182212/'>
               <img src={LinkedIn} alt="" ></img>
               </a>
-              <a href='https://instagram.com/rupa_0032?igshid=ZDc4ODBmNjlmNQ=='>
+              <a href='https://www.instagram.com/_rajput_harsh05/'>
               <img src={Instagram} alt="" ></img>
               </a>
             </div>
@@ -43,13 +43,13 @@ const Intro = () => {
         <div className="i-right">
             <img src={Vector1} alt=''></img>
             <img src={Vector2} alt=''></img>
-            <img src={Rupa} alt=''></img>
+            
             <div 
-            style={{top:'-4%' ,left:'68%'}}>
-              <FloatingDiv image={Crown} text1={'ML'} text2={'Enthusiast'}></FloatingDiv>
+            style={{top:'4%' ,left:'38%'}}>
+              <FloatingDiv image={Crown} text1={'MERN'} text2={'STACK'}></FloatingDiv>
             </div>
             <div style={{top:'18rem' ,left:'0rem'}}>
-              <FloatingDiv image={thumbup} text1={'Web'} text2={'Developer'}></FloatingDiv>
+              <FloatingDiv image={thumbup} text1={'Backend'} text2={'Enthusiast'}></FloatingDiv>
             </div>
             <div className="blur" style={{backgroundColor: "#c1F5FF", top:"17rem", width:"21rem", height:"11rem",left:'-9rem'}}></div>
         </div>

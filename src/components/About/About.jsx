@@ -12,25 +12,23 @@ const About = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className="about" id='about'>
-      {/* left */}
       <div className="awesome">
         <span style={{color:darkMode?'white':''}}>Hello Visitor</span>
-        <span>I'm Rupa !</span>
+        <span>I'm Harsh !</span>
         <span style={{color:darkMode?'white':''}}>
-        I am a 3rd-year Computer Science student with a keen interest in both Machine Learning and Web Development. With a solid foundation in programming and computer science principles, I am now venturing into the exciting worlds of ML and web technologies.
+        I am a Final Year Computer Science student with a keen interest in Full Stack Development . With a solid foundation in programming and computer science principles, I am now venturing into the exciting worlds of BACKEND and web technologies.
         </span>
         <a href={resume} download>
         <button className='s-button'>Download CV</button>
         </a>
         <div className='s-blur' style={{background:'#ABF1FF94'}}></div>
       </div>
-      {/* right */}
       <div className="cards">
         <div style={{left:'14rem'}} className='cards-inner'>
           <Card
             emoji = {HeartEmoji}
-            heading = {'Machine Learning'}
-            detail = {'supervised, unsupervised, and reinforcement learning'}
+            heading = {'FULL STACK'}
+            detail = {'Express, Node, MonogoDB and React'}
           />
         </div>
 
@@ -38,7 +36,7 @@ const About = () => {
           <Card
             emoji = {Humble}
             heading = {'Communication Skills'}
-            detail = {'English, Hindi , Odia'}
+            detail = {'English, Hindi'}
           />
         </div>
 
@@ -46,8 +44,8 @@ const About = () => {
         <div style={{left:'12rem' , top:"19rem"}}>
           <Card
             emoji = {Glasses}
-            heading = {'Web Developer'}
-            detail = {'React.JS , Node.JS'}
+            heading = {'Problem Solving'}
+            detail = {'C++ , JAVA'}
           />
         </div>
       </div>
